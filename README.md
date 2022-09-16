@@ -17,12 +17,16 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 #### BONUS
 - [ ] (2pt) User can view the app on various device sizes and orientations.
-- [ ] (1pt) Run your app on a real device.
+- [x] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
+In Simulator on computer:
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/77522068/190577124-9910656d-7367-4dff-b389-8280620c172e.gif)
 
-GIF created with [EZGif](https://ezgif.com/)
+On my iPhone:
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/77522068/190579507-e89be79d-5ddf-4e11-8fe4-a808a8bd879d.gif)
+
+GIFs created with [EZGif](https://ezgif.com/)
 
 ### Notes
 This project allowed me to brush up on topics that I had learnt during the Prework and also introduced me to new concepts such as working with table views, creating reuseable cells, and APIs. APIs were surprisingly not as difficult to work with as I had though. I realized they are very easy to utilize; it's just a matter of understanding what information they contain. The most challenging part of this project was understanding the logic behind the code given to us in the walkthrough and learning/memorizing how to use it in the future. 
