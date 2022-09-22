@@ -76,5 +76,19 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return cell
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {     // sender is the cell that you clicked on
+        print("Loading up the details screen")
+        // Find the selected movie
+        let cell = sender as! UITableViewCell
+        let indexPath = tableView.indexPath(for: cell)!
+        let movie = movies[indexPath.row]
+        
+        // Pass the selected movie to the details view controller
+        let detailsViewController = segue.destination as! MovieDetailsViewController
+        detailsViewController.movie = movie
+        
+        // cell highlight briefly
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
 }
 
